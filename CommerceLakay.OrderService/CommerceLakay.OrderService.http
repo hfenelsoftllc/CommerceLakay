@@ -1,0 +1,6 @@
+@CommerceLakay.OrderService_HostAddress = http://localhost:5037
+
+GET {{CommerceLakay.OrderService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

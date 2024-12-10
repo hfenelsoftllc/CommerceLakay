@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsAspireHost>true</IsAspireHost>
+    <UserSecretsId>1ba67aa0-cc28-4b4b-8c4b-dead5928c9cb</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="8.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CommerceLakay.OrderService\CommerceLakay.OrderService.csproj" />
+    <ProjectReference Include="..\CommerceLakay.ProductService\CommerceLakay.ProductService.csproj" />
+    <ProjectReference Include="..\CommerceLakay.Web\CommerceLakay.Web.csproj" />
+  </ItemGroup>
+
+</Project>
